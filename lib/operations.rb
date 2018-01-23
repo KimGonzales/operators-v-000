@@ -9,6 +9,6 @@ end
 
 
 
-#def not_safe?(speed)
-	#use ternary operator
-#end
+def not_safe?(speed)
+	!speed.between?(40,60) ? true | false
+end
